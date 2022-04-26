@@ -1,0 +1,61 @@
+
+        body {
+                   
+            background-image: url("images/bg.png");
+                    }
+        .Skills{
+            border-radius: 50%;
+            width: 100%;
+
+        }
+       
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+          }
+          
+          li {
+            float: left;
+          }
+          
+          li a {
+            display: block;
+            padding: 8px;
+            background-color: #dddddd;
+          }
+          li a:hover {
+            background-color: #111;
+          }
+        .name{
+            color: dimgray;
+            font-family:  Georgia, 'Times New Roman', Times, serif;
+
+        }
+
+        h1 {
+            color: dimgray;
+            font-family:  Georgia, 'Times New Roman', Times, serif;
+        }
+        h2{
+            color: dimgray;
+            font-family:  Georgia, 'Times New Roman', Times, serif;
+        }
+        h3 {
+            color: dimgray;
+            font-family:  Georgia, 'Times New Roman', Times, serif;
+    }
+ a{
+        color: dimgray;
+        font-family:  Georgia, 'Times New Roman', Times, serif;
+    }
+h4 {
+        color: dimgray;
+        font-family:  Georgia, 'Times New Roman', Times, serif;
+    }
+ p{
+    color: dimgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
