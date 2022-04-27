@@ -1,115 +1,146 @@
-
-        body {
-                  background-color: black;
-                  background-blend-mode: lighten;
-                    }
-        .Skills{
-            border-radius: 50%;
-            width: 100%;
-
-        }
-       
-
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-          }
-          
-          li {
-            float: left;
-           
-          }
-          
-          li a {
-            display: block;
-            padding: 8px;
-           
-          }
-          li a:hover {
-            border: none;
-            display: block;
-            outline: 0;
-            background-color:white !important ;
-          }
-        .name{
-            color: white;
-            font-family:  "SF Pro Text", "Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial", sans-serif;
-
-        }
-
-        h1 {
-            color: white;
-            font-family:  Georgia, 'Times New Roman', Times, serif;
-        }
-        h2{
-            color: white;
-            font-family:  Georgia, 'Times New Roman', Times, serif;
-        }
-        h3 {
-            color: white;
-            font-family:  Georgia, 'Times New Roman', Times, serif;
-    }
- a{
-        color: white;
-        font-family:  Georgia, 'Times New Roman', Times, serif;
-    }
-h4 {
-        color: white;
-        font-family:  Georgia, 'Times New Roman', Times, serif;
-    }
- p{
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;    
+body {
+  background-color: white;
+  background-blend-mode: lighten;
 }
-iframe{
-  width:100%;
-  height : 50%;
- 
 
-  }
-  #aboutself{
-    width:58%;
-  }
-  #profilepic{
-    width: 39%;
-    
-  }
+.Skills {
+  border-radius: 50%;
+  width: 100%;
 
-  .column {
-    float: left;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
-  
-  .left {
-    width: 51%;
-  }
-  
-  .right {
-    width: 35%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .picpro{
-    width: 407px;
-    height: 289px;
-    float: right;
-    background-blend-mode: overlay;
-  }
-  a.home{
-    border: none;
-    display: block;
-    outline: 0;
-    color: #757575
+}
 
-  }
-  a{
-    background-color: transparent;
-  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  padding: 8px;
+
+}
+
+li a:hover {
+  border: none;
+  display: block;
+  outline: 0;
+  background-color: burlywood !important;
+}
+
+.name {
+  color: black;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+h1 {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4 {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+iframe {
+  width: 100%;
+  height: 50%;
+
+
+}
+
+#aboutself {
+  width: 58%;
+     
+}
+
+#profilepic {
+  width: 39%;
+  opacity: 0.5;
+  
+   
+
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+  
+}
+
+.left {
+  width: 51%;
+}
+
+.right {
+  width: 35%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.picpro {
+  
+  float: right;
+  background-blend-mode: overlay;
+  border-radius: 50%;
+    width: 314px ;
+    height: 281px;
+}
+
+a.home {
+  border: none;
+  display: block;
+  outline: 0;
+  color: #757575
+}
+
+a {
+  background-color: transparent;
+}
+div.map{
+  margin: 10px;
+}
+footer {
+  width: auto;
+}
+details {
+  color: black;
+}
+.skills {
+  padding-inline: 108px;
+}
