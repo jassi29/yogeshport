@@ -8,6 +8,10 @@ body {
   width: 100%;
 
 }
+.row{
+  background-image: url('images/yogesh.JPG');
+  background-size: cover;
+}
 
 
 ul {
@@ -25,6 +29,7 @@ li {
 li a {
   display: block;
   padding: 8px;
+  text-decoration: none;
 
 }
 
@@ -32,7 +37,7 @@ li a:hover {
   border: none;
   display: block;
   outline: 0;
-  background-color: burlywood !important;
+  background-color: grey !important;
 }
 
 .name {
@@ -42,17 +47,17 @@ li a:hover {
 }
 
 h1 {
-  color: black;
+  color: slategray;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
-  color: black;
+  color: whitesmoke;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h3 {
-  color: black;
+  color: whitesmoke;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -62,7 +67,7 @@ a {
 }
 
 h4 {
-  color: black;
+  color: whitesmoke;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -122,12 +127,7 @@ iframe {
     height: 281px;
 }
 
-a.home {
-  border: none;
-  display: block;
-  outline: 0;
-  color: #757575
-}
+
 
 a {
   background-color: transparent;
@@ -144,3 +144,15 @@ details {
 .skills {
   padding-inline: 108px;
 }
+#Menus{
+  background-color: #757575;
+}
+div.social-media{
+  width:384px;;
+  float: right;
+  display: block;
+  display: block;
+    margin: -90px;
+}
+.icon{
+padding: 4px;}
